@@ -1,0 +1,25 @@
+{
+  "name": "backend",
+  "version": "1.0.0",
+  "description": "Chame o Cézar - Backend",
+  "main": "index.js",
+  "scripts": {
+    "start": "node src/index.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/cctonelli/chame-o-cezar-backend.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/cctonelli/chame-o-cezar-backend/issues"
+  },
+  "homepage": "https://github.com/cctonelli/chame-o-cezar-backend#readme",
+  "dependencies": {
+    "@supabase/supabase-js": "^2.52.0",
+    "express": "^5.1.0"
+  }
+}
